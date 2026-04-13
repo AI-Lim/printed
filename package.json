@@ -1,0 +1,39 @@
+{
+  "name": "printed",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "konva": "^10.2.3",
+    "lucide-react": "^0.383.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-konva": "^18.2.14",
+    "react-router-dom": "^6.22.0",
+    "react-scripts": "5.0.1",
+    "three": "^0.183.2",
+    "use-image": "^1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "download-assets": "node scripts/download-assets.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
